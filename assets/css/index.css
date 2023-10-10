@@ -1,0 +1,74 @@
+.desc_article p {
+    margin-top: 59px !important;
+    font-size: 1.4rem;
+    margin-left: 150px;
+    text-shadow: 4px 2px 2px white;
+}
+
+.desc_article {
+    display: block;
+}
+
+.img_background-st{
+    background: url("/assets/media/stval.jpeg");
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat !important;
+    border-radius: 50px !important;
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 2px 2px var(--color_shadow);
+}
+
+.img_background-cty{
+    background: url("/assets/media/lecrotoy.jpeg");
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat !important;
+    border-radius: 50px !important;
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 2px 2px var(--color_shadow);
+
+}
+
+.img_background-cyx{
+    background: url("/assets/media/cayeux.jpeg");
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat !important;
+    border-radius: 50px !important;
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 2px 2px var(--color_shadow);
+}
+
+.img_background-nyl{
+    background: url("/assets/media/noyelle.jpeg");
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat !important;
+    border-radius: 50px !important;
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 2px 2px var(--color_shadow);
+}
+
+.title_article {
+    position: absolute;
+    font-family: 'Almond Buttery';
+    text-shadow: 2px 2px 2px var(--color_shadow);
+    font-size: 1.6rem;
+    left: 150px;
+    font-style: oblique;
+}
+
+.desc_article p {
+    margin-top: 59px !important;
+    font-size: 1.4rem;
+    margin-left: 150px;
+    text-shadow: 4px 2px 2px white;
+}
+
+.desc_article {
+    display: block;
+}
+@media screen and (max-width: 999px) {
+
+}

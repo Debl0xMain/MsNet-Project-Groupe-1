@@ -1,0 +1,158 @@
+:root {
+    --color_hover: rgb(88, 255, 199);
+    --color_border: rgba(0, 0, 0, 0.329);
+    --color_title: rgba(5, 5, 5, 0.911);
+    --color_shadow: rgba(55, 180, 211, 0.911);
+  }
+
+@font-face {
+    font-family: 'Almond Buttery';
+    font-style: normal;
+    font-weight: 400;
+    src:url('/assets/fonts/MonchilaRegular-VGZXe.otf') format('woff');
+    
+}
+@font-face {
+    font-family: 'titlneon';
+    src:url('/assets/fonts/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf');
+}
+
+.fixed {
+    position: fixed;
+    top: 0 !important;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.drop_nav {
+    border: 2px rgba(0, 0, 0, 0.329) solid !important;
+    backdrop-filter: blur(2px) !important;
+    border-radius: 50px !important;
+}
+nav a:hover {
+    text-shadow: 2px 2px 2px var(--color_hover);
+    background: none !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--color_title) !important;
+}
+
+body {
+    background: url('/assets/media/baiedesomme.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat !important;
+    background-position: center;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.103) !important;
+    backdrop-filter: blur(4px);
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+    margin-bottom: 150px;
+}
+
+.nav-item a {
+    text-shadow: 2px 2px 2px var(--color_shadow);
+    font-size: 1.4rem;
+    font-style: oblique;
+    font-family: 'titlneon';
+    z-index: 100;
+}
+
+.carousel-inner {
+    border-radius: 50px !important;
+    box-shadow: 5px 5px 2px black;
+}
+
+#back_nav
+{
+position: fixed;
+bottom : 100px;
+right: -100px;
+opacity: 0.5;
+backdrop-filter: blur(15px);
+}
+#back_nav a img {
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+#back_nav a:hover img {
+    background: blue;
+    border-radius: 5px;
+}
+.nav_reponsize {
+    display: none;
+}
+.position {
+    margin-top: 100px;
+}
+.acc_reponsize {
+    display: none;
+}
+@media screen and (max-width: 999px) {
+    body {
+        background: url('/assets/media/baiedesommereponsize.jpg');
+        object-fit: cover;
+    }
+    .acc_reponsize {
+        display: flex;
+    }
+    .navbar-brand {
+        display: none !important;
+    }
+    .img_logo_nav-top {
+        display: none !important;
+    }
+    .navbar-toggler{
+        border: 1px solid rgba(248, 248, 248, 0) !important;
+    }
+    #header {
+        position: absolute;
+        margin-top: 60px;
+        z-index: 100;
+        right: 0;
+    }
+    .navbar {
+        background: rgba(255, 255, 255, 0.103) !important;
+        backdrop-filter: blur(4px);
+        border-radius: 50px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+    }
+    #back_nav
+    {
+    position: fixed;
+    right: -100px;
+    opacity: 0.5;
+    backdrop-filter: blur(15px);
+    }
+    #carouselExampleSlidesOnly {
+        margin-top: 80px;
+    }
+
+    .footer .navbar-toggler {
+        display: none !important;
+    }
+    .footer .dropdown-item {
+        display: none !important;
+    }
+    .footer .nav-item{
+        display: none !important;
+    }
+    .footer .nav_reponsize {
+        display: flex;
+    }
+    .icon_footer i{
+        font-size: 35px;
+    }
+    .footer li {list-style: none;}
+    
+}
