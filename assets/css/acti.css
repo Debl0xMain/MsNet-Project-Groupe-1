@@ -1,0 +1,95 @@
+/*index.css
+.parent{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}  
+
+.imgs_tourisme { grid-area: 1 / 2 / 2 / 3; }
+.texte_imgs { grid-area: 1 / 3 / 2 / 4; }
+
+
+
+.parent1 {  
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  
+  }
+  
+                 .texte_bateaux { grid-area: 1 / 1 / 2 / 2;} 
+                 .img_bateaux { grid-area: 1 / 2 / 2 / 3;}
+  
+.texte_imgs{ background-color: rgba(97, 108, 109, 0.401) ;border-radius: 50px;
+  font-size: 35px; margin-right: 20%; margin-left: 50%;width: 50%; justify-items: flex-start; flex-direction: column;}
+
+
+    
+ .texte_bateaux{ background-color: rgb(97, 108, 109, 0.401);border-radius: 50px;font-size: 35px;align-self: center;
+  margin-left: 500px;;width: 100%;height: 300px;margin-bottom: -30px;}
+ 
+ 
+  .img_tourisme { border-radius: 50px;margin-left: 30%; margin-right: 30px;   }
+ 
+
+  .img_bateaux { border-radius: 50px;margin-left: 46%;  }  
+
+
+  
+  
+
+  */
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .img_tourisme { grid-area: 1 / 2 / 2 / 3; }
+    .texte_img { grid-area: 1 / 1 / 2 / 2; }
+
+    .parent1 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px; 
+      }
+      
+      .texte_bateaux { grid-area: 1 / 2 / 2 / 3; }
+      .img_bateaux { grid-area: 1 / 1 / 2 / 2; }
+
+      .text {
+        text-align : center;
+         margin:auto;
+        background: rgba(114, 111, 111, 0.395);
+        border-radius: 35px; margin-right: 36%;
+        font-size: 30px; margin:10%;  
+
+      }
+      .img_align {
+        margin: auto;
+        align-items: center;
+         border-radius: 10%; width: 600px ; height: 600px;
+       }
+      
+        
+      
+        
+      
+      
+      
+      
+       
+    
+      
+      
+    
